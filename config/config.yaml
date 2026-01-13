@@ -1,0 +1,13 @@
+data:
+  raw_path: "data/raw/climate_nasa.csv"
+  processed_path: "data/processed/"
+  
+sentiment:
+  model_name: "cardiffnlp/twitter-roberta-base-sentiment-latest"
+  
+model:
+  test_size: 0.2
+  random_state: 42
+  
+viz:
+  save_path: "reports/figures/"
